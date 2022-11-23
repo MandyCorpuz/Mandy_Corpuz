@@ -1,0 +1,64 @@
+
+1
+<?xml version="1.0" encoding="UTF-8" ?>
+2
+<!DOCTYPE html>
+3
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='fancy.xml' b:templateVersion='1.3.3' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+4
+  <head>
+5
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+6
+    <title><data:view.title.escaped/></title>
+7
+    <b:include data='blog' name='all-head-content'/>
+8
+    <b:skin version='1.3.3'><![CDATA[/*! normalize.css v3.0.1 | MIT License | git.io/normalize */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+9
+/*
+10
+<!-- Constants -->
+11
+​
+12
+<!-- Fonts -->
+13
+​
+14
+<Variable name="garamond12" description="12px Garamond" type="font" default="normal 400 12px EB Garamond, serif" hideEditor="true"  value="normal 400 12px EB Garamond, serif"/>
+15
+<Variable name="garamond14" description="14px Garamond" type="font" default="normal 400 14px EB Garamond, serif" hideEditor="true"  value="normal 400 14px EB Garamond, serif"/>
+16
+<Variable name="garamond16" description="16px Garamond" type="font" default="normal 400 16px EB Garamond, serif" hideEditor="true"  value="normal 400 16px EB Garamond, serif"/>
+17
+<Variable name="garamond18" description="18px Garamond" type="font" default="normal 400 18px EB Garamond, serif" hideEditor="true"  value="normal 400 18px EB Garamond, serif"/>
+18
+<Variable name="garamond20" description="20px Garamond" type="font" default="normal 400 20px EB Garamond, serif" hideEditor="true"  value="normal 400 20px EB Garamond, serif"/>
+19
+<Variable name="garamond24" description="24px Garamond" type="font" default="normal 400 24px EB Garamond, serif" hideEditor="true"  value="normal 400 24px EB Garamond, serif"/>
+20
+<Variable name="garamond36" description="36px Garamond" type="font" default="normal 400 36px EB Garamond, serif" hideEditor="true"  value="normal 400 36px EB Garamond, serif"/>
+21
+<Variable name="lato12" description="12px Lato" type="font" default="normal 400 12px Lato, sans-serif" hideEditor="true"  value="normal 400 12px Lato, sans-serif"/>
+22
+<Variable name="lato14" description="14px Lato" type="font" default="normal 400 14px Lato, sans-serif" hideEditor="true"  value="normal 400 14px Lato, sans-serif"/>
+23
+<Variable name="lato16" description="16px Lato" type="font" default="normal 400 16px Lato, sans-serif" hideEditor="true"  value="normal 400 16px Lato, sans-serif"/>
+24
+<Variable name="lato20" description="20px Lato" type="font" default="normal 400 20px Lato, sans-serif" hideEditor="true"  value="normal 400 20px Lato, sans-serif"/>
+25
+<Variable name="lato24" description="24px Lato" type="font" default="normal 400 24px Lato, sans-serif" hideEditor="true"  value="normal 400 24px Lato, sans-serif"/>
+26
+<Variable name="latoBold12" description="12px Lato Bold" type="font" default="normal 700 12px Lato, sans-serif" hideEditor="true"  value="normal 700 12px Lato, sans-serif"/>
+27
+<Variable name="latoBold14" description="14px Lato Bold" type="font" default="normal 700 14px Lato, sans-serif" hideEditor="true"  value="normal 700 14px Lato, sans-serif"/>
+28
+<Variable name="latoBold16" description="16px Lato Bold" type="font" default="normal 700 16px Lato, sans-serif" hideEditor="true"  value="normal 700 16px Lato, sans-serif"/>
+29
+<Variable name="latoBold24" description="24px Lato Bold" type="font" default="normal 700 24px Lato, sans-serif" hideEditor="true"  value="normal 700 24px Lato, sans-serif"/>
+30
+<Variable name="latoBold28" description="28px Lato Bold" type="font" default="normal 700 28px Lato, sans-serif" hideEditor="true"  value="normal 700 28px Lato, sans-serif"/>
+31
+<Variable name="latoLight18" description="18px Lato Light" type="font" default="normal 300 18px Lato, sans-serif" hideEditor="true"  value="normal 300 18px Lato, sans-serif"/>
+Template: Edit Template
